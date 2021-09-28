@@ -1,0 +1,186 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&family=Vidaloka&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body
+{
+    font-family: 'vidaloka', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: normal;
+}
+
+ul,ol
+{
+    list-style:none;
+}
+section
+{
+    padding: 45px 0 80px 0;
+}
+section .heading 
+{
+    text-align: center;
+    padding-bottom: 40px;        
+}
+/* section .heading h2
+{
+    text-transform: uppercase;
+} */
+.red-divider
+{
+    width:100px;
+    height: 2px;
+    background: gray;
+    margin: 0 auto;
+}
+.white-divider
+{
+    width:100px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+}
+    img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+/* MENU */
+.card{
+    width: 100%;
+   /* margin-left: -10%; */
+}
+.navbar
+{   
+    position: relative;
+    /* background: orange; */
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.navbar{
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background:  url("../image/1.jpg") no-repeat;
+  }
+.navbar .navbar-nav
+{
+    float: none;
+    vertical-align: top;
+    position: fixed;
+    margin-left: -20%;
+    padding-left: 60%;
+    background: #fff;
+    width: 120%;
+    opacity: 0.90;
+}
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{   
+    font-family: 'roboto', sans-serif;
+    color: green !important;
+    text-transform: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #fff !important;
+    background-color: orange !important;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+.icon-bar
+{
+    background-color: #fff !important;
+}
+.accueil{
+    margin-top: 18%;
+    font-family: 'Vidaloka', serif;
+    color: #fff;
+    padding-bottom: 20px;
+    margin-left: 8%;
+}
+.accueil button{
+    background: green;
+    font-size: 20px;
+    /* margin-left: 10%; */
+    padding: 10px 30px;
+}
+.accueil h1{
+    font-size: 60px;
+}
+.accueil h3{
+    font-size: 30px;
+    text-transform: none;
+    font-weight: bold;
+}
+.logo{
+    margin-top: 50px;
+    margin-left: -100px;
+}
+.logo img{
+    width: 10%;
+}
+.block
+{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    background: gray;
+    border-radius: 0px;
+    border: 10px solid #000;
+    margin-bottom: 20px;
+    
+
+}
+.container img
+{
+    max-width: 100%;
+    height: auto;
+}
+.heading h2{
+   font-size: 60px;
+   
+}
+.text{
+    text-align: center;
+}
+.text .btn{
+    width: 90%;
+    background-color: green;
+    font-size: 30px;
+}
+.heading h2{
+    text-align: center;
+    margin-left: 20px;
+}
+.text1{
+    margin-left: -60%;
+}
+.text1 h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text1 i{
+    font-size: 30px;
+    color: green;
+}
+.text1 span{
+    margin-left: 20px;
+    font-size: 15px;
+}
